@@ -21,7 +21,6 @@ main {
 }
 /*Main*/
 .container {
-    display: inline-block;
     margin-top: 30px;
 }
 
@@ -41,8 +40,8 @@ main {
     color: white;
     box-shadow: 5px 2px #999999;
     float: left;
-    width: 350px;
-    margin: 40px;
+    width: calc(70% / 3);
+    margin: 5%;
     display: inline-block;
 }
 
@@ -53,21 +52,23 @@ main {
 }
 
 .nome{
-    display: block;
-    padding-left: 20px;
     margin-bottom: 5px;
-    
 }
 
 .professione{
-    display: block;
-    padding-left: 20px;
     margin-bottom: 5px;
 }
 
 .email{
     color: cornflowerblue;
+}
+
+.coninfo{
+    margin-left: 90px;
     padding-left: 20px;
     display: block;
-    margin-bottom: 5px;
+}
+
+.cofoto{
+    display: block;
 }
