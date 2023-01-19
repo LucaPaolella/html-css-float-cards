@@ -20,3 +20,54 @@ main {
     margin-top: 30px;
 }
 /*Main*/
+.container {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+/*.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+  }*/
+
+.box{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 2px #999999;
+    float: left;
+    width: 350px;
+    margin: 40px;
+    display: inline-block;
+}
+
+.foto{
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.nome{
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.professione{
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.email{
+    color: cornflowerblue;
+    padding-left: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
