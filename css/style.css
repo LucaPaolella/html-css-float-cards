@@ -41,7 +41,8 @@ main {
     box-shadow: 5px 2px #999999;
     float: left;
     width: calc(70% / 3);
-    margin: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
     display: inline-block;
 }
 
