@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+h1 {
+    color: #DC143C;
+    text-align: center;
+}
+/*fine Header*/
+
+/*Main*/
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.testo1 {
+    text-align: center;
+}
+/*Main*/
